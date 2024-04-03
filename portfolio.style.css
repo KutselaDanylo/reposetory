@@ -1,0 +1,32 @@
+:root{
+    --first-color:#2F303A;
+    --second-color:#757575;
+    --third-color:#212121;
+    --fourth-color:#FFFFFF;
+    --decorative-color:#2196F3;
+}
+footer{
+     
+    background-color: #2F303A;
+}
+.sektion{
+    font-family: Roboto;
+}
+.a1{
+    color: #2196F3;
+}
+.a2{color: #2196F3;
+}
+button:hover{ 
+    background-color:#2196F3 ;
+    color: #FFFFFF;
+}
+.ul1:hover{
+    color: #2196F3;
+}
+.ul2{
+    padding-left: 215px;
+}
+ol{
+    color: #FFFFFF;
+}
