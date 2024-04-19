@@ -2,16 +2,17 @@
  --first-color:#2F303A;
  --second-color:#757575;
  --third-color:#212121;
- --fourth-color:#FFFFFF;
  --fifth-color:#F5F4FA;
+ --fourth-color:#FFFFFF;
  --hover-color:#2196F3;
 
 }
 .container{
-    max-width: 1600px;
-    padding:  0 215px;
+    max-width: 1170px;
+    padding:  0 15px;
     margin: 0 auto;
     border: solid;
+    border-color: var(--fourth-color);
 }
 section{
     font-family: Roboto;
@@ -19,7 +20,11 @@ section{
 li{
     list-style-type: none;
 }
+ul{
+    padding-inline-start: 0px;
+}
 footer{
+    margin-top: 0 auto;
     color: var(--first-color);
     background-color: var(--first-color);
 }
@@ -27,29 +32,29 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: inline;
-    gap: 40px;
+    justify-content: center;
+    gap: 30px;
 }
 
+.Наша-команда-class{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.Наша-команда-flex{
+    margin-bottom: 1px;
+    background-color: var(--fifth-color);
+}
 .flex-li{
     display: flex;
     flex-direction: row;
     justify-content: inline;
     justify-content: center;
-    gap: 30px;
-}
-.flex-img{
-    display: flex;
-    flex-direction: row;
-    width: 370px;
-    height: 294px;
-}
-.img-class{
-    display: flex;
-    flex-direction: row;
-    width: 370px;
-    height: 294px;
+    gap: 10px;
 }
 .decorativ-ul{
+    gap: 8px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -58,33 +63,45 @@ footer{
     background-color: var(--fifth-color);
  }
 .class-button{
+    padding: 21px 32px;
     color: var(--fourth-color);
     background-color: var(--hover-color);
 }
 .section-class{
-    max-width: 1600px;
+    padding-top: 230px;   
+    height: 600px;
     background-color: var(--first-color);
-    padding: 600px;
     text-align: center;
 }
 .h1{
     color: var(--fourth-color);
     font-size: 40px;
-font-weight: 900;
-letter-spacing: 0.06em;
-text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.06em;
 }
 .h-1{
+    font-size: 33px;
+    text-align: center;
+    height: 42px;
+    background-color: var(--fifth-color);
+}
+.section-header{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    max-width: 1170px;
+    gap: 346px;
+}
+.ul-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 40px;
 }
 .class-ul{
-    max-width: 1170px;
     display: flex;
     flex-direction: row;
     justify-content: left;
-    gap: 55px;
+    gap: 40px;
 }
 a{
     color: var(--third-color);
@@ -104,10 +121,12 @@ a:hover{
 .h4-class{
     color: var(--third-color);
 }
-h5{
+.h5{
+height: 16px;
     color: var(--first-color);
 }
-h6{
+.h6{
+    height: 72px;
     color: var(--second-color);
 }
 ol{
@@ -118,6 +137,7 @@ ol{
     padding-left: 215px;
 }
 .decorativ-h1{
+    height: 42px;
     text-align: Center;
 }
 .main-H1{
@@ -131,4 +151,11 @@ button:hover{
    font-size: 14px; 
    line-height: 24px;
    color: var(--second-color);
+}
+.ul-flex{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: inline;
+    gap: 30px;
 }
