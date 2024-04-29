@@ -2,17 +2,18 @@
  --first-color:#2F303A;
  --second-color:#757575;
  --third-color:#212121;
- --fifth-color:#F5F4FA;
  --fourth-color:#FFFFFF;
+ --fifth-color:#F5F4FA;
  --hover-color:#2196F3;
 
 }
 .container{
-    max-width: 1170px;
-    padding:  0 15px;
+    max-width: 1200px;
+    padding: 0 15px;
     margin: 0 auto;
     border: solid;
-    border-color: var(--fourth-color);
+    border-color:red;
+    font-family: Roboto;
 }
 section{
     font-family: Roboto;
@@ -24,9 +25,12 @@ ul{
     padding-inline-start: 0px;
 }
 footer{
-    margin-top: 0 auto;
     color: var(--first-color);
     background-color: var(--first-color);
+}
+.class-ol{
+    color: var(--fourth-color);
+    padding-left: 215px;
 }
 .flex-ul{
     display: flex;
@@ -34,24 +38,29 @@ footer{
     justify-content: inline;
     justify-content: center;
     gap: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
-
+.main-li{
+    max-width:270px ;
+}
 .Наша-команда-class{
-    padding-left: 10px;
+    background-color: var(--fifth-color);
+    padding-left: 25px;
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 .Наша-команда-flex{
-    margin-bottom: 1px;
+    padding-bottom: 0px;
     background-color: var(--fifth-color);
 }
 .flex-li{
+    padding-left: 5px;
+    width: 1170px;
     display: flex;
     flex-direction: row;
-    justify-content: inline;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-between;
 }
 .decorativ-ul{
     gap: 8px;
@@ -73,17 +82,29 @@ footer{
     background-color: var(--first-color);
     text-align: center;
 }
-.h1{
+.p{
+    padding-left: 270px;
+    max-width: 900px;
+    text-align: center;
     color: var(--fourth-color);
     font-size: 40px;
     font-weight: 900;
     letter-spacing: 0.06em;
 }
 .h-1{
-    font-size: 33px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
     text-align: center;
-    height: 42px;
     background-color: var(--fifth-color);
+}
+.decorativ-h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: Center;
 }
 .section-header{
     display: flex;
@@ -125,20 +146,15 @@ a:hover{
 height: 16px;
     color: var(--first-color);
 }
-.h6{
+.flexul-item{
+    font-weight: 400px;
+    font-size: 14px;
+    font-family: Roboto;
     height: 72px;
     color: var(--second-color);
 }
 ol{
     color: var(--fourth-color);
-}
-.class-ol{
-    color: var(--fourth-color);
-    padding-left: 215px;
-}
-.decorativ-h1{
-    height: 42px;
-    text-align: Center;
 }
 .main-H1{
     font-family: Raleway;
@@ -153,9 +169,11 @@ button:hover{
    color: var(--second-color);
 }
 .ul-flex{
-
     display: flex;
     flex-direction: row;
     justify-content: inline;
     gap: 30px;
+}
+.third-ul-itam{
+    width: calc( (100% -60px) );
 }
