@@ -175,5 +175,5 @@ button:hover{
     gap: 30px;
 }
 .third-ul-itam{
-    width: calc( (100% -60px) );
+    width: calc( (100% -60px) /3);
 }
