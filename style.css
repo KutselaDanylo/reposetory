@@ -12,13 +12,14 @@
     padding: 0 15px;
     margin: 0 auto;
     border: solid;
-    border-color:red;
+    border-color: var(--fourth-color);
     font-family: Roboto;
 }
 section{
     font-family: Roboto;
 }
 li{
+    
     list-style-type: none;
 }
 ul{
@@ -53,7 +54,7 @@ footer{
     background-color: var(--fifth-color);
 }
 .main-ul-li:first-child::before{
-    background-image:url(./img/antenna 1 (1).png);
+    background-image:url(./antenna 1 (1).png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -63,7 +64,7 @@ footer{
     background-position: center;
 }
 .main-ul-li:nth-child(3)::before{
-    background-image: url(./img/diagram 1.png);
+    background-image: url(./diagram 1 .png);
     background-repeat:no-repeat;
     background-position: center;
 }
@@ -85,6 +86,7 @@ footer{
     background-color: var(--fifth-color);
 }
 .flex-li{
+    padding-bottom: 94px;
     padding-left: 5px;
     width: 1170px;
     display: flex;
@@ -121,6 +123,8 @@ footer{
     letter-spacing: 0.06em;
 }
 .h-1{
+    padding-top: 107px;
+    padding-bottom: 50px;
     font-size: 36px;
     font-weight: 700;
     line-height: 42.19px;
@@ -129,6 +133,7 @@ footer{
     background-color: var(--fifth-color);
 }
 .decorativ-h1{
+    padding-bottom: 60px;
     font-size: 36px;
     font-weight: 700;
     line-height: 42.19px;
@@ -163,6 +168,9 @@ footer{
     display: flex;
     align-items: center;
     gap: 345px;
+}
+.main-H1:hover{
+    color: var(--third-color);
 }
 .main-H1{
     padding-right:79px;
@@ -223,7 +231,7 @@ button:hover{
     font-size: 14px; 
     line-height: 24px;
     color: var(--second-color);
-padding-left: 92px;
+    padding-left: 92px;
 }
 .ul-flex{
     display: flex;
