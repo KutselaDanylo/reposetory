@@ -28,11 +28,15 @@ footer{
     color: var(--first-color);
     background-color: var(--first-color);
 }
+.header-div{
+    display: flex;
+    align-items: center;
+}
 .class-ol{
     color: var(--fourth-color);
     padding-left: 215px;
 }
-.flex-ul{
+.main-ul{
     display: flex;
     flex-direction: row;
     justify-content: inline;
@@ -41,8 +45,32 @@ footer{
     padding-right: 20px;
     padding-left: 20px;
 }
-.main-li{
-    max-width:270px ;
+.main-ul-li::before{
+    display: block;
+    width: 270px;
+    height: 120px;
+    border-radius: 3px;
+    background-color: var(--fifth-color);
+}
+.main-ul-li:first-child::before{
+    background-image:url(./img/antenna 1 (1).png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-ul-li:nth-child(2)::before{
+    background-image: url(./img/clock 1 (1).png);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.main-ul-li:nth-child(3)::before{
+    background-image: url(./img/diagram 1.png);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.main-ul-li:nth-child(4)::before{
+    background-image: url(./img/Group (2).png);
+    background-repeat:no-repeat;
+    background-position: center;
 }
 .Наша-команда-class{
     background-color: var(--fifth-color);
@@ -52,7 +80,8 @@ footer{
     gap: 10px;
 }
 .Наша-команда-flex{
-    padding-bottom: 0px;
+    padding-bottom: 95px;
+    margin-bottom: -25px;
     background-color: var(--fifth-color);
 }
 .flex-li{
@@ -106,6 +135,10 @@ footer{
     letter-spacing: 0.03em;
     text-align: Center;
 }
+.main-li{
+    background-color: var(--fourth-color);
+    height: 368px;
+}
 .section-header{
     display: flex;
     flex-direction: row;
@@ -121,8 +154,23 @@ footer{
 .class-ul{
     display: flex;
     flex-direction: row;
-    justify-content: left;
     gap: 40px;
+}
+.span-class{
+    color: var(--hover-color);
+}
+.class-nav{
+    display: flex;
+    align-items: center;
+    gap: 345px;
+}
+.main-H1{
+    padding-right:79px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
 }
 a{
     color: var(--third-color);
@@ -143,7 +191,7 @@ a:hover{
     color: var(--third-color);
 }
 .h5{
-height: 16px;
+    height: 16px;
     color: var(--first-color);
 }
 .flexul-item{
@@ -156,23 +204,36 @@ height: 16px;
 ol{
     color: var(--fourth-color);
 }
-.main-H1{
-    font-family: Raleway;
-}
 button:hover{ 
     background-color: var(--hover-color);
     color: var(--fourth-color);
 }
 .class-p{
-   font-size: 14px; 
-   line-height: 24px;
-   color: var(--second-color);
+    font-size: 14px; 
+    line-height: 24px;
+    color: var(--second-color);
+    padding-left: 72px;
+}
+.main-p{
+    display: flex;
+    justify-content: center;
+
+}
+.p-class{
+    font-size: 14px; 
+    line-height: 24px;
+    color: var(--second-color);
+padding-left: 92px;
 }
 .ul-flex{
     display: flex;
     flex-direction: row;
     justify-content: inline;
     gap: 30px;
+}
+.main-button{
+    border: solid none;
+    box-shadow: 0px 1px 1px;
 }
 .third-ul-itam{
     width: calc( (100% -60px) /3);
