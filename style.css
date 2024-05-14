@@ -4,6 +4,7 @@
  --third-color:#212121;
  --fourth-color:#FFFFFF;
  --fifth-color:#F5F4FA;
+ --sixth-color:#EEEEEE;
  --hover-color:#2196F3;
 
 }
@@ -11,8 +12,6 @@
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
-    border: solid;
-    border-color: var(--fourth-color);
     font-family: Roboto;
 }
 section{
@@ -106,6 +105,8 @@ footer{
     padding: 21px 32px;
     color: var(--fourth-color);
     background-color: var(--hover-color);
+    border: none;
+    border-radius: 4px;
 }
 .section-class{
     padding-top: 230px;   
@@ -143,6 +144,8 @@ footer{
 .main-li{
     background-color: var(--fourth-color);
     height: 368px;
+    box-shadow: 0px 1px 1px var(--second-color);
+    border-radius: 4px;
 }
 .section-header{
     display: flex;
@@ -212,10 +215,6 @@ a:hover{
 ol{
     color: var(--fourth-color);
 }
-button:hover{ 
-    background-color: var(--hover-color);
-    color: var(--fourth-color);
-}
 .class-p{
     font-size: 14px; 
     line-height: 24px;
@@ -225,7 +224,6 @@ button:hover{
 .main-p{
     display: flex;
     justify-content: center;
-
 }
 .p-class{
     font-size: 14px; 
@@ -233,16 +231,29 @@ button:hover{
     color: var(--second-color);
     padding-left: 92px;
 }
+button:hover{ 
+    background-color: var(--hover-color);
+    color: var(--fourth-color);
+    box-shadow: 0px 10px 10px var(--first-color);
+}
+.main-button{
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 26px;
+    margin: 8px;
+}
 .ul-flex{
     display: flex;
     flex-direction: row;
     justify-content: inline;
-    gap: 30px;
+    gap: 24px;
 }
-.main-button{
-    border: solid none;
-    box-shadow: 0px 1px 1px;
+.third-ul-itam:hover{
+    box-shadow: 1px 3px 4px var(--sixth-color);
 }
 .third-ul-itam{
+    border:1px solid var(--fifth-color);
     width: calc( (100% -60px) /3);
 }
